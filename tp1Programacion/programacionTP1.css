@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(83, 83, 221, 0.849);
+    color: black;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(98, 9, 241);
+    padding: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.formulario{
+    display: flex;
+    padding-right: 75px;
+}
+.categorias{
+    padding-left: 75px;
+    border-left: 4px solid black;
+
+}
+.filtro{
+    padding: 17px;
+    margin-top: 26px;
+    background-color: rgb(98, 9, 241);
+}
+.contenedor2{
+    padding: 17px;
+    margin-top: 26px;
+    background-color: rgb(98, 9, 241);
+}
+.contenedor3{
+    display: flex;
+    flex-direction: column;
+}
+.tarjeta{
+    justify-content: space-between;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="programacionTP1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div  class="contenedor1">
+
+
+    <form  class="formulario" id="formulario">
+        
+        <label for="tareas">tareas</label>
+        <input type="text" placeholder="nombre de la tarea" id="nombre">
+
+        <label for="prioridad">prioridad</label>
+<select name="" id="prioridad">
+    <option value="alta">alta</option>
+    <option value="media">media</option>
+    <option value="baja">baja</option>
+</select>
+
+<label for="categoria">categoria</label>
+<select name="" id="categoria">
+   <option value="domestico">domestico</option>
+   <option value="laborales">laborales</option>
+   <option value="administrativas">administrativas</option>
+   <option value="sociales">sociales</option>
+   <option value="personales">personales</option>
+</select>
+
+<button type="submit"  onclick="guardar">confirmar</button>
+
+</form>
+
+<div class="categorias">
+
+    <h2>categorias</h2>
+    <ul>
+        <li>domestico</li>
+        <li>laborales</li>
+        <li>administrativas</li>
+        <li>sociales</li>
+        <li>personales</li>
+    </ul>
+
+</div>
+
+</div>
+
+<div class="filtro">
+    <h2>filtrar</h2>
+
+    <h3>categoria</h3>
+
+    <select id="filtro_categoria">
+        <option value="domestico">domestico</option>
+        <option value="laborales">laborales</option>
+        <option value="administrativas">administrativas</option>
+        <option value="sociales">sociales</option>
+        <option value="personales">personales</option>
+        <option value="Todo">todo</option>
+     </select>
+<button onclick="filtrarCategoria()"> Filtrar</button>
+    <h3>prioridad</h3>
+    <select name="" id="filtro_prioridad">
+        <option value="todo">todo</option>
+        <option value="alta">alta</option>
+        <option value="media">media</option>
+        <option value="baja">baja</option>
+    </select>
+<button onclick="filtarPrioridad()"></button>
+</div>
+
+<div class="contenedor2">
+    <h2>tareas</h2>
+    <div id="contenedor" class="contenedor3"></div>
+</div>
+<script src="programacionTP1.js"></script>
+</body>
+</html>
