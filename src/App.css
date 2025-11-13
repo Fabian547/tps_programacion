@@ -1,0 +1,71 @@
+#root {
+  display: flex;
+  flex: 1;
+}
+
+.App{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.Panel{
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.Formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 80%;
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+.Formulario input{
+  margin: 10px 5px;
+  width: 90%;
+}
+
+.Formulario select{
+  margin: 10px 5px;
+  width: 90%;
+}
+
+.Listado{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  align-items: center;
+}
+
+.Tarjeta{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin: 15px;
+  width: 70%;
+  position: relative;
+}
+
+.Eliminar{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 3px 10px;
+  background-color: blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
